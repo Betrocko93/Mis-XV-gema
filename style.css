@@ -1,0 +1,63 @@
+body, html{
+	height: 100%;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+.img1, .img2, .img3{
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	background-attachment: fixed;
+}
+.img1{
+	background-image:url('images/image1.png');
+	background-position-y: -500px;
+	min-height: 100%;
+}
+
+.img2{
+	background-image:url('images/image2.png');
+	background-position-y: -500px;
+	min-height: 100%;	
+}
+
+.img3{
+	background-image:url('images/image3.png');
+	background-position-y: -500px;
+	min-height: 70%;	
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: black;
+}
+
+.section1{
+	font-family: castellar;
+	font-style: normal;
+	padding: 50px ;
+	height: 450px;
+}
+
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: pink;
+	font-family: castellar;
+	font-style: bold;
+	font-size: 50px;
+	letter-spacing: 8;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px black;
+}
